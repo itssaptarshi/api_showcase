@@ -13,7 +13,7 @@ const Weather = () => {
   //       searchLocation()
   //   },[])
 
-  const searchLocation = async (event) => {
+  const searchLocation = (event) => {
     if (event.key === "Enter") {
       axios.get(url).then((resposnse) => {
         setToggle(true);
@@ -60,7 +60,7 @@ const Weather = () => {
                 <div>feels like</div>
               </div>
               <div>
-                <div> {data.current.humidity}</div>
+                <div> {data.current.humidity} %</div>
                 <div>Humidity</div>
               </div>
               <div>

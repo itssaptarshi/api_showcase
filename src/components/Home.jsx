@@ -17,6 +17,11 @@ const Home = () => {
               <div className="p-5 bg-slate-600 text-white rounded-lg ">cat</div>
             </Link>
           </div>
+          <div className="m-5">
+            <Link to="/harrypotter">
+              <div className="p-5 bg-slate-600 text-white rounded-lg ">Harry Potter</div>
+            </Link>
+          </div>
         </div>
       </div>
     </>
